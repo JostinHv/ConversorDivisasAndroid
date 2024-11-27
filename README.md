@@ -1,31 +1,41 @@
-Conversor de Divisas para Android 🌍💰
-Bienvenido al proyecto ConversorDivisasAndroid: una aplicación Android que permite convertir entre diferentes monedas de manera rápida y sencilla.
+# Conversor de Divisas para Android 🌍💰
 
-📱 Descripción
-ConversorDivisasAndroid es una app que te permite convertir valores entre diversas divisas de manera simple y eficiente. Solo necesitas ingresar el monto en la moneda de origen y la app te proporcionará el valor equivalente en la moneda de destino, todo en tiempo real.
-La aplicación obtiene las tasas de cambio desde una API externa y ofrece una interfaz de usuario intuitiva para una experiencia fluida.
+Una aplicación sencilla para convertir entre diferentes monedas de manera rápida y eficiente. ¡Convierte divisas al instante y mantén tus finanzas al día!
 
-🚀 Características
-Conversión en tiempo real ⏱️: Obtén las tasas de cambio actualizadas al instante.
-Soporte para múltiples monedas 🌏💸: Convierte entre una amplia variedad de divisas.
-Interfaz simple y amigable 🖥️📱: Fácil de usar y sin complicaciones.
-Compatibilidad con Android 📱: Funciona en dispositivos Android con versiones compatibles.
+## 📱 Descripción
 
-⚙️ Requisitos
-Android 5.0 (Lollipop) o superior
-Conexión a Internet para obtener las tasas de cambio
+**ConversorDivisasAndroid** es una app Android que te permite convertir valores entre distintas divisas en tiempo real, utilizando tasas de cambio actualizadas desde una API externa.
 
-🔧 Instalación
-1- Clona este repositorio en tu máquina local:
-2- git clone https://github.com/JostinHv/ConversorDivisasAndroid.git
-3- Abre el proyecto en Android Studio.
-4- Ejecuta la app en tu dispositivo o emulador.
+## 🚀 Características
 
-🌐 API de Conversión de Divisas
-La app utiliza la API CurrencyLayer para obtener las tasas de cambio actuales. Puedes registrarte para obtener una clave API gratuita y personalizar la app con tus propias configuraciones de API.
+- **Conversión en tiempo real** ⏱️  
+- **Soporte para múltiples monedas** 🌏💵
+- **Interfaz amigable y fácil de usar** 🖥️
+- **Compatibilidad con dispositivos Android** 📱
 
-🛠️ Tecnologías
-Android Studio 📱
-Kotlin 🧑‍💻
-Retrofit para la comunicación con la API 🌐
-ViewModel y LiveData para gestionar el ciclo de vida de la app 🌀
+## ⚙️ Requisitos
+
+- Android 5.0 (Lollipop) o superior
+- Conexión a Internet para obtener las tasas de cambio
+
+## 🔧 Instalación
+
+1. Clona este repositorio:
+    ```bash
+    git clone https://github.com/JostinHv/ConversorDivisasAndroid.git
+    ```
+
+2. Abre el proyecto en [Android Studio](https://developer.android.com/studio).
+
+3. Ejecuta la app en tu dispositivo o emulador Android.
+
+## 🌐 API de Conversión
+
+La app utiliza la API [CurrencyLayer](https://currencylayer.com/) para obtener las tasas de cambio en tiempo real. Regístrate para obtener una clave API gratuita y personaliza la app.
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Android Studio** 📱
+- **Kotlin** 🧑‍💻
+- **Retrofit** 🌐 para la comunicación con la API
+- **ViewModel** y **LiveData** 🔄 para el manejo del ciclo de vida
